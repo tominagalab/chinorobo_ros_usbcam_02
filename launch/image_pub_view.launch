@@ -1,0 +1,7 @@
+<launch>
+  <node name="usb_cam" pkg="image_publisher" type="image_publisher" args="/home/ubuntu/frame0002.jpg" />
+  
+  <node name="raw_image" pkg="image_view" type="image_view">
+    <remap from="image" to="/usb_cam/image_raw" />
+  </node>
+</launch>
