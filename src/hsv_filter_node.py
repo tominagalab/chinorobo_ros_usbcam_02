@@ -6,7 +6,7 @@ import cv2
 from cv_bridge import CvBridge
 
 from dynamic_reconfigure.server import Server
-from chinorobo_ros_usbcam_02.cfg import Parameters
+from chinorobo_ros_usbcam_02.cfg import ParametersConfig
 
 
 # Node name
