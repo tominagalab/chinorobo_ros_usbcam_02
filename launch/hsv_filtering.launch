@@ -1,5 +1,5 @@
 <launch>
-  <node name="hsv_filtering" pkg="chinorobo_ros_usbcam_01" type="hsv_filter_node.py">
+  <node name="hsv_filtering" pkg="chinorobo_ros_usbcam_02" type="hsv_filter_node.py">
     <remap from="image" to="/usb_cam/image_raw" />
   </node>
   <node name="reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" />
